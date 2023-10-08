@@ -6,6 +6,12 @@ import { Hero } from "./Hero";
 describe("Navbar component", () => {
   it("renders navbar and corresponding links", () => {
     render(<Hero />);
-    expect(screen.getByRole("img").textContent);
+
+    expect(
+      screen.getByRole("heading", { name: "Hi we are the Taco Brothers" })
+    );
+    expect(screen.getByRole("heading", { name: "Do you want tacos?" }));
+    expect(screen.getByRole("heading", { name: "Do you want tacos?" }));
+    expect(screen.getByRole("button", { name: "We have them" }));
   });
 });
