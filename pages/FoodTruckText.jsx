@@ -1,0 +1,4 @@
+const TruckText =
+  " Lorem ipsum dolor sit amet, consetetur sadipscing elitr, seddiam nonumy eirmod tempor inveirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vereirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et ao eos et aeos et aidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et aeirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et a.";
+
+export { TruckText };
