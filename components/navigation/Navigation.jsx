@@ -10,7 +10,7 @@ export function Navigation() {
           <Navbar.Brand href="#">Taco Bros</Navbar.Brand>
           <Nav variant="underline">
             <Nav.Link href="#">Catering</Nav.Link>
-            <Nav.Link href="#">Wann Wo</Nav.Link>
+            <Nav.Link href="#">Wann + Wo</Nav.Link>
             <Nav.Link href="#">Tacos</Nav.Link>
             <Nav.Link href="#">Über Uns</Nav.Link>
           </Nav>
