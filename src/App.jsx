@@ -1,7 +1,9 @@
+import { Navigation } from "../components/navigation/Navigation";
+
 function App() {
   return (
     <>
-      <p>hello world</p>
+      <Navigation />
     </>
   );
 }

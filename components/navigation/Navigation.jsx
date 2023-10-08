@@ -5,13 +5,14 @@ import Navbar from "react-bootstrap/Navbar";
 export function Navigation() {
   return (
     <>
-      <Navbar fixed="top" role="navigation" bg="dark" data-bs-theme="dark">
+      <Navbar fixed="top" role="navigation" bg="success" data-bs-theme="dark">
         <Container>
-          <Navbar.Brand href="#">Jonas Mösch</Navbar.Brand>
+          <Navbar.Brand href="#">Taco Bros</Navbar.Brand>
           <Nav variant="underline">
-            <Nav.Link href="#about-me">About</Nav.Link>
-            <Nav.Link href="#projects">Projects</Nav.Link>
-            <Nav.Link href="#contact">Contact</Nav.Link>
+            <Nav.Link href="#">Catering</Nav.Link>
+            <Nav.Link href="#">Wann Wo</Nav.Link>
+            <Nav.Link href="#">Tacos</Nav.Link>
+            <Nav.Link href="#">Über Uns</Nav.Link>
           </Nav>
         </Container>
       </Navbar>
