@@ -9,10 +9,11 @@ export function Navigation() {
         <Container>
           <Navbar.Brand href="#">Taco Bros</Navbar.Brand>
           <Nav variant="underline">
-            <Nav.Link href="#">Catering</Nav.Link>
-            <Nav.Link href="#">Wann + Wo</Nav.Link>
+            <Nav.Link href="#">Foodtruck</Nav.Link>
             <Nav.Link href="#">Tacos</Nav.Link>
             <Nav.Link href="#">Über Uns</Nav.Link>
+            <Nav.Link href="#">Team</Nav.Link>
+            <Nav.Link href="#">Kontakt</Nav.Link>
           </Nav>
         </Container>
       </Navbar>
