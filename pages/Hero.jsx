@@ -1,38 +1,58 @@
-import Image from "react-bootstrap/Image";
 import Container from "react-bootstrap/Container";
-import Row from "react-bootstrap/Row";
-// import Col from "react-bootstrap/Col";
 import Button from "react-bootstrap/Button";
+import heroBackground from "../public/images/hero_tacos.png";
+import styled from "styled-components";
 
-const styleHeader = {
-  paddingTop: "17rem",
-  paddingBottom: "12.5rem",
-  textAlign: "center",
-};
+const Header = styled.header`
+  padding-top: 10.5rem;
+  padding-bottom: 6rem;
+  text-align: center;
+  color: white;
+  background-image: url(${heroBackground});
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+  @media (min-width: 768px) {
+    padding-top: 17rem;
+    padding-bottom: 12.5rem;
+  }
+`;
 
-const styleH3 = {
-  fontSize: "1.5rem",
-  lineHeight: "1.5rem",
-  marginBottom: "25px",
-};
+const H3 = styled.h3`
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  margin-bottom: 25px;
+  @media (min-width: 768px) {
+    font-size: 2.25rem;
+    line-height: 2.25rem;
+    margin-bottom: 2rem;
+  }
+`;
 
-const styleH1 = {
-  fontSize: "3.25rem",
-  fontWeight: "700",
-  lineHeight: "3.25rem",
-  marginBottom: "2rem",
-};
+const H1 = styled.h1`
+  font-size: 3.25rem;
+  font-weight: 700;
+  line-height: 3.25rem;
+  margin-bottom: 2rem;
+  @media (min-width: 768px) {
+    font-size: 4.5rem;
+    font-weight: 700;
+    line-height: 4.5rem;
+    margin-bottom: 4rem;
+  }
+`;
 
 export function Hero() {
   return (
-    <header style={styleHeader}>
+    <Header>
       <Container>
-        <h3 style={styleH3}>Hi we are the Taco Brothers</h3>
-        <h1 style={styleH1}>Do you want tacos?</h1>
+        <H3>Hi we are the Taco Brothers</H3>
+        <H1>Do you want tacos?</H1>
         <Button variant="success" size="lg">
           We have them
         </Button>
       </Container>
-    </header>
+    </Header>
   );
 }
