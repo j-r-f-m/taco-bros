@@ -11,7 +11,6 @@ export function Navigation() {
           <Nav variant="underline">
             <Nav.Link href="#">Foodtruck</Nav.Link>
             <Nav.Link href="#">Tacos</Nav.Link>
-            <Nav.Link href="#">Über Uns</Nav.Link>
             <Nav.Link href="#">Team</Nav.Link>
             <Nav.Link href="#">Kontakt</Nav.Link>
           </Nav>

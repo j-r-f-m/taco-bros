@@ -8,6 +8,5 @@ describe("Navbar component", () => {
     render(<Navigation />);
     expect(screen.getByRole("navigation").textContent).toMatch(/Foodtruck/i);
     expect(screen.getByRole("navigation").textContent).toMatch(/Tacos/i);
-    expect(screen.getByRole("navigation").textContent).toMatch(/Über Uns/i);
   });
 });

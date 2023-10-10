@@ -13,5 +13,6 @@ describe("Food Truck component", () => {
         name: "Lorem ipsum dolor sit amet consectetur.",
       })
     );
+    expect(screen.getAllByRole("img"));
   });
 });

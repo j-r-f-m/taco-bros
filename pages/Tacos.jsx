@@ -69,9 +69,9 @@ const tacos = [
 
 export function Tacos() {
   const allTacos = tacos.map((taco) => (
-    <Col lg={4} sm={6} mb={4} align="center" key={taco.id}>
+    <Col lg={4} md={6} sm={12} xs={12} align="center" key={taco.id}>
       {" "}
-      <Card className="gx-2 gy-2 m-3" style={{ width: "18rem" }}>
+      <Card className="m-3" style={{ width: "18rem" }}>
         <Card.Img variant="top" src={taco.img} />
         <Card.Body>
           <Card.Title>{taco.name}</Card.Title>
