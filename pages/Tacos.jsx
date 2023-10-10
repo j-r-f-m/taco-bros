@@ -1,7 +1,7 @@
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import Image from "react-bootstrap/Image";
+import uniqid from "uniqid";
 import styled from "styled-components";
 import Card from "react-bootstrap/Card";
 
@@ -24,36 +24,42 @@ const H3 = styled.h3`
 
 const tacos = [
   {
+    id: uniqid(),
     img: "../public/images/al-pastor.jpg",
     name: "Al Pastor",
     contents:
       "Some quick example text to build on the card title and make up the bulk of the card's content.",
   },
   {
+    id: uniqid(),
     img: "../public/images/al-pastor.jpg",
     name: "Al Pastor",
     contents:
       "Some quick example text to build on the card title and make up the bulk of the card's content.",
   },
   {
+    id: uniqid(),
     img: "../public/images/al-pastor.jpg",
     name: "Al Pastor",
     contents:
       "Some quick example text to build on the card title and make up the bulk of the card's content.",
   },
   {
+    id: uniqid(),
     img: "../public/images/al-pastor.jpg",
     name: "Al Pastor",
     contents:
       "Some quick example text to build on the card title and make up the bulk of the card's content.",
   },
   {
+    id: uniqid(),
     img: "../public/images/al-pastor.jpg",
     name: "Al Pastor",
     contents:
       "Some quick example text to build on the card title and make up the bulk of the card's content.",
   },
   {
+    id: uniqid(),
     img: "../public/images/al-pastor.jpg",
     name: "Al Pastor",
     contents:
@@ -63,19 +69,16 @@ const tacos = [
 
 export function Tacos() {
   const allTacos = tacos.map((taco) => (
-    <>
+    <Col lg={4} sm={6} mb={4} align="center" key={taco.id}>
       {" "}
-      <Col lg={4} sm={6} mb={4} align="center">
-        {" "}
-        <Card className="gx-2 gy-2 m-3" style={{ width: "18rem" }}>
-          <Card.Img variant="top" src={taco.img} />
-          <Card.Body>
-            <Card.Title>{taco.name}</Card.Title>
-            <Card.Text>{taco.contents}</Card.Text>
-          </Card.Body>
-        </Card>
-      </Col>
-    </>
+      <Card className="gx-2 gy-2 m-3" style={{ width: "18rem" }}>
+        <Card.Img variant="top" src={taco.img} />
+        <Card.Body>
+          <Card.Title>{taco.name}</Card.Title>
+          <Card.Text>{taco.contents}</Card.Text>
+        </Card.Body>
+      </Card>
+    </Col>
   ));
   return (
     <Section>
