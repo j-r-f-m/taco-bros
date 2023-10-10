@@ -29,15 +29,45 @@ const tacos = [
     contents:
       "Some quick example text to build on the card title and make up the bulk of the card's content.",
   },
+  {
+    img: "../public/images/al-pastor.jpg",
+    name: "Al Pastor",
+    contents:
+      "Some quick example text to build on the card title and make up the bulk of the card's content.",
+  },
+  {
+    img: "../public/images/al-pastor.jpg",
+    name: "Al Pastor",
+    contents:
+      "Some quick example text to build on the card title and make up the bulk of the card's content.",
+  },
+  {
+    img: "../public/images/al-pastor.jpg",
+    name: "Al Pastor",
+    contents:
+      "Some quick example text to build on the card title and make up the bulk of the card's content.",
+  },
+  {
+    img: "../public/images/al-pastor.jpg",
+    name: "Al Pastor",
+    contents:
+      "Some quick example text to build on the card title and make up the bulk of the card's content.",
+  },
+  {
+    img: "../public/images/al-pastor.jpg",
+    name: "Al Pastor",
+    contents:
+      "Some quick example text to build on the card title and make up the bulk of the card's content.",
+  },
 ];
 
 export function Tacos() {
   const allTacos = tacos.map((taco) => (
     <>
       {" "}
-      <Col>
+      <Col lg={4} sm={6} mb={4} align="center">
         {" "}
-        <Card style={{ width: "18rem" }}>
+        <Card className="gx-2 gy-2 m-3" style={{ width: "18rem" }}>
           <Card.Img variant="top" src={taco.img} />
           <Card.Body>
             <Card.Title>{taco.name}</Card.Title>
