@@ -3,8 +3,8 @@ import { render, screen } from "@testing-library/react";
 
 import { Tacos } from "./Tacos";
 
-describe("Food Truck component", () => {
-  it("Foot Truck component", () => {
+describe("Tacos component", () => {
+  it("renders Tacos section", () => {
     render(<Tacos />);
 
     expect(screen.getByRole("heading", { name: "Our Tacos" }));

@@ -3,8 +3,8 @@ import { render, screen } from "@testing-library/react";
 
 import { Hero } from "./Hero";
 
-describe("Navbar component", () => {
-  it("renders navbar and corresponding links", () => {
+describe("Hero component", () => {
+  it("renders Hero section", () => {
     render(<Hero />);
 
     expect(
