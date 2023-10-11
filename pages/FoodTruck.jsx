@@ -7,6 +7,7 @@ import { TruckText } from "./FoodTruckText";
 
 const Section = styled.section`
   padding: 6rem 0;
+  background: rgba(248, 249, 250);
 `;
 
 const H2 = styled.h2`
