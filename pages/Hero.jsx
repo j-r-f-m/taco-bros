@@ -2,6 +2,7 @@ import Container from "react-bootstrap/Container";
 import Button from "react-bootstrap/Button";
 import heroBackground from "../public/images/hero_tacos.png";
 import styled from "styled-components";
+import { Link } from "react-scroll";
 
 const Header = styled.header`
   padding-top: 10.5rem;
@@ -50,7 +51,9 @@ export function Hero() {
         <H3>Hi we are the Taco Brothers</H3>
         <H1>Do you want tacos?</H1>
         <Button variant="success" size="lg">
-          We have them
+          <Link to="tacos" className="nav-link">
+            We have them{" "}
+          </Link>
         </Button>
       </Container>
     </Header>
