@@ -25,14 +25,14 @@ const H3 = styled.h3`
 const tacos = [
   {
     id: uniqid(),
-    img: "../public/images/team_1.jpg",
+    img: "images/team_1.jpg",
     name: "Bro 1",
     contents:
       "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt.",
   },
   {
     id: uniqid(),
-    img: "../public/images/team_1.jpg",
+    img: "images/team_1.jpg",
     name: "Bro 2",
     contents:
       "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt..",
