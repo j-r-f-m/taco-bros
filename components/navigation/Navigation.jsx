@@ -5,7 +5,13 @@ import Navbar from "react-bootstrap/Navbar";
 export function Navigation() {
   return (
     <>
-      <Navbar fixed="top" role="navigation" bg="success" data-bs-theme="dark">
+      <Navbar
+        fixed="top"
+        role="navigation"
+        bg="success"
+        data-bs-theme="dark"
+        className="p-3"
+      >
         <Container>
           <Navbar.Brand href="#">Taco Bros</Navbar.Brand>
           <Nav variant="underline">

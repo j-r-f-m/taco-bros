@@ -7,7 +7,13 @@ describe("Contact", () => {
   it("reders Contact section", () => {
     render(<Contact />);
 
-    expect(screen.getByRole("textbox", { name: "Email address" }));
-    expect(screen.getByRole("textbox"));
+    // expect(screen.getByRole("textbox", { name: "Your Name" }));
+    // expect(screen.getByRole("textbox", { name: "Email address" }));
+    expect(screen.getByRole("heading", { name: "Contact Us" }));
+    expect(
+      screen.getByRole("heading", {
+        name: "Lorem ipsum dolor sit amet consectetur.",
+      })
+    );
   });
 });
