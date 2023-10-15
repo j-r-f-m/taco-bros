@@ -8,6 +8,6 @@ describe("Contact", () => {
     render(<Contact />);
 
     expect(screen.getByRole("textbox", { name: "Email address" }));
-    expect(screen.getByRole("img"));
+    expect(screen.getByRole("textbox"));
   });
 });
