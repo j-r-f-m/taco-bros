@@ -3,6 +3,7 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import { Link, Events, scrollSpy } from "react-scroll";
+import NavDropdown from "react-bootstrap/NavDropdown";
 
 export function Navigation() {
   useEffect(() => {
@@ -28,7 +29,7 @@ export function Navigation() {
 
   return (
     <>
-      <Navbar
+      {/* <Navbar
         fixed="top"
         role="navigation"
         bg="success"
@@ -52,6 +53,37 @@ export function Navigation() {
               Contact
             </Link>
           </Nav>
+        </Container>
+      </Navbar> */}
+
+      <Navbar
+        collapseOnSelect
+        expand="lg"
+        fixed="top"
+        bg="success"
+        data-bs-theme="dark"
+        clas
+      >
+        <Container>
+          <Navbar.Brand href="#">Taco Bros</Navbar.Brand>
+          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+          <Navbar.Collapse id="responsive-navbar-nav">
+            <Nav>
+              <Link to="tacos" className="nav-link">
+                Tacos
+              </Link>
+              <Link to="food-truck" className="nav-link">
+                Foodtruck
+              </Link>
+
+              <Link to="team" className="nav-link">
+                Team
+              </Link>
+              <Link to="contact" className="nav-link">
+                Contact
+              </Link>
+            </Nav>
+          </Navbar.Collapse>
         </Container>
       </Navbar>
     </>
