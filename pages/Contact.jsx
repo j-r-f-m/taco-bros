@@ -61,9 +61,7 @@ export function Contact() {
               </Row>
             </Col>
             <Col lg={4} md={6} sm={12} xs={12} align="center">
-              <TextArea className="border border-secondary">
-                Your Feedback
-              </TextArea>
+              <TextArea className="border border-secondary"></TextArea>
             </Col>
           </Row>
           <Row className="d-flex justify-content-center">

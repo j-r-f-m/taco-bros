@@ -5,16 +5,30 @@ import { Tacos } from "../pages/Tacos";
 import { Team } from "../pages/Team";
 import { Contact } from "../pages/Contact";
 import { Footer } from "../components/navigation/Footer";
+import { Element } from "react-scroll";
 
 function App() {
   return (
     <>
       <Navigation />
       <Hero />
-      <Tacos />
-      <Foodtruck />
-      <Team />
-      <Contact />
+
+      <Element name="tacos">
+        <Tacos />
+      </Element>
+
+      <Element name="food-truck">
+        <Foodtruck />
+      </Element>
+
+      <Element name="team">
+        <Team />
+      </Element>
+
+      <Element name="contact">
+        <Contact />
+      </Element>
+
       <Footer />
     </>
   );
