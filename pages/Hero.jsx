@@ -45,7 +45,7 @@ const H1 = styled.h1`
 
 export function Hero() {
   return (
-    <Header>
+    <Header id="header">
       <Container>
         <H3>Hi we are the Taco Brothers</H3>
         <H1>Do you want tacos?</H1>

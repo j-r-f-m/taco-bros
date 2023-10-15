@@ -49,7 +49,7 @@ export function Team() {
         className=" m-3"
         style={{ width: "18rem" }}
       >
-        <Card.Img variant="top" src={taco.img} roundedCircle />
+        <Card.Img variant="top" src={taco.img} />
         <Card.Body>
           <Card.Title>{taco.name}</Card.Title>
           <Card.Text>{taco.contents}</Card.Text>
@@ -58,7 +58,7 @@ export function Team() {
     </Col>
   ));
   return (
-    <Section>
+    <Section id="section-team">
       <Container fluid>
         <div className="text-center">
           <H2>The Taco Bros</H2>

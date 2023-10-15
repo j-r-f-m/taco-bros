@@ -81,7 +81,7 @@ export function Tacos() {
     </Col>
   ));
   return (
-    <Section>
+    <Section id="section-tacos">
       <Container>
         <div className="text-center">
           <H2>Our Tacos</H2>

@@ -24,7 +24,7 @@ const H3 = styled.h3`
 
 export function Foodtruck() {
   return (
-    <Section>
+    <Section id="section-food-truck">
       <Container>
         <div className="text-center">
           <H2>Our Taco Truck</H2>
