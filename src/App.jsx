@@ -4,6 +4,7 @@ import { Foodtruck } from "../pages/FoodTruck";
 import { Tacos } from "../pages/Tacos";
 import { Team } from "../pages/Team";
 import { Contact } from "../pages/Contact";
+import { Footer } from "../components/navigation/Footer";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Foodtruck />
       <Team />
       <Contact />
+      <Footer />
     </>
   );
 }

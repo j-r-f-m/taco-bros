@@ -1,0 +1,134 @@
+[33mcommit 093fe60e3bf6373ecea3ffc207ee72686b78b027[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: jrfm <moesch.jonas@protonmail.com>
+Date:   Sun Oct 15 12:48:46 2023 +0200
+
+    add tests for Contact.jsx
+
+[33mcommit c7a07320b424f47925780420ada2d24987793680[m
+Author: jrfm <moesch.jonas@protonmail.com>
+Date:   Sun Oct 15 12:30:03 2023 +0200
+
+    add basic Contact.jsx
+
+[33mcommit 4a8c399f99d2cbee2442f5844974fd47234b2fde[m
+Author: jrfm <moesch.jonas@protonmail.com>
+Date:   Sun Oct 15 11:11:43 2023 +0200
+
+    fix different bugs
+    
+    Fix CSS for taco section. Change order of navbar links. Fix test of
+    contact section.
+
+[33mcommit c07ceee520e106ac1a6f17e1dd439e92971a29ae[m
+Author: jrfm <moesch.jonas@protonmail.com>
+Date:   Wed Oct 11 21:56:24 2023 +0200
+
+    add basic Contact.jsx incl. tests
+
+[33mcommit 3e360cf4ba21710152c53367d6312311e3c36b95[m
+Author: jrfm <moesch.jonas@protonmail.com>
+Date:   Tue Oct 10 22:28:45 2023 +0200
+
+    add Team.test.jsx
+
+[33mcommit a73ff9ff02ec7e0562afa5a63ea3caf3f78ca83f[m
+Author: jrfm <moesch.jonas@protonmail.com>
+Date:   Tue Oct 10 22:25:06 2023 +0200
+
+    add Team.jsx
+
+[33mcommit a49ba8edbea82a86f85c308f04bd3599ed46daf2[m
+Author: jrfm <moesch.jonas@protonmail.com>
+Date:   Tue Oct 10 21:31:13 2023 +0200
+
+    add basic version of Tacos.jsx
+
+[33mcommit bd81fa598ab705ea4ff9284082443169071aa556[m
+Author: jrfm <moesch.jonas@protonmail.com>
+Date:   Tue Oct 10 21:24:56 2023 +0200
+
+    fix test in Navigation.test.jsx
+
+[33mcommit bc9f2a09981b52cf60055938f68def3be11f2bf7[m
+Author: jrfm <moesch.jonas@protonmail.com>
+Date:   Mon Oct 9 21:59:42 2023 +0200
+
+    add one working taco card
+
+[33mcommit c909680f1f8268572f28b930a8a3ccfaf26586f0[m
+Author: jrfm <moesch.jonas@protonmail.com>
+Date:   Mon Oct 9 21:34:35 2023 +0200
+
+    add Tacos.jsx + Tacos.test.jsx
+
+[33mcommit afa4539ca9f0964975cbdbcac8d965de5e55eb32[m
+Author: jrfm <moesch.jonas@protonmail.com>
+Date:   Sun Oct 8 21:16:05 2023 +0200
+
+    add basic test for FoodTruck.jsx
+
+[33mcommit 68895e97946a1d9c6cbd69fdb9376cdad7589168[m
+Author: jrfm <moesch.jonas@protonmail.com>
+Date:   Sun Oct 8 21:11:38 2023 +0200
+
+    add Foodtruck section
+
+[33mcommit 4636132d94a32d189417076355d43f6d9d1d9d7d[m
+Author: jrfm <moesch.jonas@protonmail.com>
+Date:   Sun Oct 8 16:05:11 2023 +0200
+
+    update  test to Hero.jsx
+
+[33mcommit d6155465374e72b4cc7dbb1df87107bf03109c51[m
+Author: jrfm <moesch.jonas@protonmail.com>
+Date:   Sun Oct 8 15:58:36 2023 +0200
+
+    add items to navigation
+
+[33mcommit c26f787badd44248ca5f219e689eea88e6b9e3b4[m
+Author: jrfm <moesch.jonas@protonmail.com>
+Date:   Sun Oct 8 15:53:01 2023 +0200
+
+    add styled components to Hero.jsx
+
+[33mcommit 3d622374ffeba827272f32e1f30a945b0f7c26bf[m
+Author: jrfm <moesch.jonas@protonmail.com>
+Date:   Sun Oct 8 14:59:23 2023 +0200
+
+    add basic layout to Hero.jsx
+
+[33mcommit aaad67ef014097588b07c2c6ed20b3b6969d0ba4[m
+Author: jrfm <moesch.jonas@protonmail.com>
+Date:   Sun Oct 8 13:18:43 2023 +0200
+
+    Add basic navigation
+
+[33mcommit 2c676e7dfaa67b16f36fb6417e01d0ae0073393c[m
+Author: jrfm <moesch.jonas@protonmail.com>
+Date:   Sun Oct 8 12:15:35 2023 +0200
+
+    add test for Navigation.jsx
+
+[33mcommit 1bb68c7022aa785cc5d3dcdc7588c93ee4d6cefa[m
+Author: jrfm <moesch.jonas@protonmail.com>
+Date:   Sun Oct 8 12:11:38 2023 +0200
+
+    setup testing
+
+[33mcommit 530938a750d023427bb7319dc31dcfc79ce30ae5[m
+Author: jrfm <moesch.jonas@protonmail.com>
+Date:   Sat Oct 7 14:53:24 2023 +0200
+
+    Setup Navigation component
+
+[33mcommit 1e2cc8290dce7d61088c438d241782a5744c1604[m
+Author: jrfm <moesch.jonas@protonmail.com>
+Date:   Sat Oct 7 14:46:37 2023 +0200
+
+    Add bootstrap
+
+[33mcommit 67374981882e139bb520971a39511b37921ff3ed[m
+Author: jrfm <moesch.jonas@protonmail.com>
+Date:   Sat Oct 7 14:44:08 2023 +0200
+
+    Initial commit
